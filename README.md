@@ -19,7 +19,7 @@ Batch Processing: When processing multiple images, batch processing can signific
 3. Strategies to Maintain Accuracy and FPS
 To ensure that the model maintains a high level of accuracy and frames per second (FPS) during CPU operation, the following strategies were utilized:
 
-Fine-Tuning: Fine-tuning the model on a specific dataset helps it learn task-specific features, leading to improved accuracy. This can involve training the model on a labeled dataset that reflects the specific types of text and images it will encounter, allowing for a more tailored performance while maintaining reasonable processing speeds.(We have used this)
+Fine-Tuning: Fine-tuning the model on a specific dataset helps it learn task-specific features, leading to improved accuracy. This can involve training the model on a labeled dataset that reflects the specific types of text and images it will encounter, allowing for a more tailored performance while maintaining reasonable processing speeds.(We have used this).
 
 Optimized Preprocessing: Efficient image preprocessing techniques were applied to ensure that the input images are suitable for the model, thereby reducing the likelihood of misrecognition. This includes resizing images to the appropriate dimensions, normalizing pixel values, and applying filters to enhance text visibility.
 
