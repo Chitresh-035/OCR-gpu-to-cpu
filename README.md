@@ -12,7 +12,8 @@ Resource Utilization: The CPU and GPU resource usage during the OCR processing.
 2. Techniques for Optimizing OCR Models for CPU
 To enhance the performance of the OCR model on a CPU, the following techniques were implemented:
 
-Quantization: This technique reduces the precision of the model's weights from floating-point (32 bits) to lower-bit representations (e.g., 8 bits). This decreases model size and increases inference speed, albeit with a potential trade-off in accuracy. (We have used this)
+Quantization: This technique reduces the precision of the model's weights from floating-point (32 bits) to lower-bit representations (e.g., 8 bits). This decreases model size and increases inference speed, albeit with a potential trade-off in accuracy. (We have used this).
+
 Batch Processing: When processing multiple images, batch processing can significantly reduce the overhead of loading the model multiple times and improve overall throughput.
 
 3. Strategies to Maintain Accuracy and FPS
